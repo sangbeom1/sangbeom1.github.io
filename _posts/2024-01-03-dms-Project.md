@@ -38,9 +38,9 @@ clic 3
 	- 운전 중 흠연 감지
 
 3. 지관적인 시각화 
-	- 1. Face3D
-	- 2. 시선추적(Eye-estimation)
-	- 3.  행동 추적(Pose_Estimation)
+	- Face3D
+	- 시선추적(Eye-estimation)
+	- 행동 추적(Pose_Estimation)
 
 <br>
 # 설계 과정
