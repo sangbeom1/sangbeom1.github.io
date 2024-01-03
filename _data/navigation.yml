@@ -6,7 +6,7 @@ main:
     url: /tags/
   # - title: "Portfolio"
   #   url: /portfolio/
-  - title: "Blog"
+  - title: "Project"
     url: /
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
