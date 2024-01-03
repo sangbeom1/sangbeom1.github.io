@@ -3,11 +3,21 @@ DMS Project-Driver Monitoring System
 졸음감지 및 이상행동 감지 운전자 모니터링 시스템
 
 최근 3년간 졸음, 주시 태만으로인한 연평균 사망자가 매년 8명정도 증가한다는 뉴스를 통해 모니터링 시스템의 필요성을 느꼈습니다.
-
-그리고 2025년부터 유럽의 모든 차량에는 모니터링 솔루션 탑재가 법률화되어 국내에서 유럽으로 수출되는 차량에는 DMS가 탑제되어야하고 
-그로 인해 발생하는 수익은 1.5조로 예상된다고합니다. 
-
+그리고 2025년부터 유럽의 모든 차량에는 모니터링 솔루션 탑재가 법률화되어 국내에서 유럽으로 수출되는 차량에
+는 DMS가 탑제되어야하고 그로 인해 발생하는 수익은 1.5조로 예상된다고합니다. 
 또한 국내도 25년에 법안이 개정될 수 있다는 것을 확인 할 수 있었습니다.
+
+
+<br>
+# Demo 영상
+# 클릭해서 영상 보기
+[![main Demo](https://img.youtube.com/vi/VrDQqiV3zwU/0.jpg)](https://www.youtube-nocookie.com/embed/VrDQqiV3zwU)
+<br>
+[![Pose_Estimation, Eye-estimation](https://img.youtube.com/vi/6gZBNyvD2YM/0.jpg)](https://www.youtube.com/embed/6gZBNyvD2YM)
+<br>
+[![Face3D](https://img.youtube.com/vi/mPX-4aKvrRo/0.jpg)](https://www.youtube.com/embed/mPX-4aKvrRo) 
+
+
 
 <br>
 # 기능 소개 
@@ -138,7 +148,7 @@ Step 2
 				transforms.ToTensor(),
 			])
 
-
+<br>
 <br>
 Step 3
 - 모델 적용 
@@ -149,11 +159,12 @@ Step 3
 	- 흡연 : YOLOv8n 모델 활용, 학습 된 데이터 셋을 Ultralytics YOLO로 Detection하여 처음 감지 임계치 0.65를 시작으로 0.4 이하까 지 임계치를 측정하여 흡연 감지
 
 	  **3초 동안 행동 유지시 안내 음성 제공**
-<br>	
+<img width="669" alt="main_yolo" src="https://github.com/sangbeom1/sangbeom1.github.io/assets/145951445/646b2caa-8940-4be5-ac8e-64e7d07eb96f">
+	
 
 
 
-
+<br>
 >얼굴 탐지 Face Mesh
 
 - Mediapipe를 활용하여 얼굴 메쉬를 탐지 
@@ -162,18 +173,20 @@ Step 3
 
 - Face3D로 구현  
 
+![3](https://github.com/sangbeom1/sangbeom1.github.io/assets/145951445/fd98c048-e0d8-49cf-b749-7e8aff54ab8c)
 
 
 
-
-
+<br>
 # 향후 발전 가능성 
 >Face 3D
 - FaceMesh를 활용하여 향 후 운전자의 모습을 다양한 기능의 형태로 보여질 수 있도록 서비스를 제공하며 웹캠에서 실시간으로 얼굴을 감지하고, 직관적으로 시각화 할 수 있도록 적용 예정 
+![4](https://github.com/sangbeom1/sangbeom1.github.io/assets/145951445/da4b5b14-9aec-452f-914e-04f5f11128f9)
 
+<br>
 >Pose_Estimation, Eye-estimation
 - 운전자의 주의력 상태, 머리 자세와 각도, 눈 종횡비, 시선, 눈 감음 지속 시간, 정밀한 휴대폰 및 행동 감지를 추적할 수 있도록 모델에 적용 예정
-
+![5](https://github.com/sangbeom1/sangbeom1.github.io/assets/145951445/04f34a23-533d-4dfd-a774-42a39a144c8a)
 
 
 
