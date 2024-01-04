@@ -1,4 +1,14 @@
-DMS Project-Driver Monitoring System
+---
+layout: single
+title: "DMS Project-Driver Monitoring System"
+categories: Project
+tag: [Project]
+toc: true
+author_profile: false
+sidebar:
+  nav: "docs"
+toc: true
+---
 
 졸음감지 및 이상행동 감지 운전자 모니터링 시스템
 
