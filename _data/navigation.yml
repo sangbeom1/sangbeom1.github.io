@@ -42,7 +42,7 @@ docs:
         url: /categories/nextjs
   - title: "TDD"
     children:
-      - title: "Project"
+      - title: "Categories"
         url: /categories/
       - title: "Tag"
         url: /categories/
@@ -64,7 +64,7 @@ docs:
         url: /categories/cs
   - title: "TIL(TODAY I LEARNED)"
     children:
-      - title: "Project"
+      - title: "Categories"
         url: /categories/
       - title: "Tag"
         url: /tags/
