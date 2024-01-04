@@ -2,13 +2,13 @@
 main:
   - title: "About Me"
     url: /portfolio/
-  - title: "Categoyry"
-    url: /categories/
-  - title: "Tag"
-    url: /tags/
-  # - title: "About"
-  #   url: /portfolio/
   - title: "Project"
+    url: /categories/
+  - title: "tag"
+    url: /tags/
+  # - title: "portfolio"
+  #   url: /portfolio/
+  # - title: "Blog"
     url: /
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
@@ -44,7 +44,7 @@ docs:
         url: /categories/nextjs
   - title: "TDD"
     children:
-      - title: "Category"
+      - title: "Project"
         url: /categories/
       - title: "Tag"
         url: /categories/
@@ -66,7 +66,7 @@ docs:
         url: /categories/cs
   - title: "TIL(TODAY I LEARNED)"
     children:
-      - title: "Category"
+      - title: "Project"
         url: /categories/
       - title: "Tag"
         url: /tags/
