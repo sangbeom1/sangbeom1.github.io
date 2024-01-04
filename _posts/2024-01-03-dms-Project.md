@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "DMS Project-Driver Monitoring System"
-categories: Project
+tag: [Project]
 toc: true
 author_profile: false
 sidebar:
