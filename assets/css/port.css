@@ -1,0 +1,215 @@
+/* Color Palette
+#FA9F42 - NEON CARROT
+#EE7769 - CORAL REEF
+#FFAC81 - VERY LIGHT TANGELO
+#FFDCC1 - VERY PALE ORANGE
+#DDFFCC - NYANZA
+#F1FFEA - HONEYDEW
+*/
+
+/********************
+  Global styles
+********************/
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  h1, h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+  }
+  
+  h1 {
+    font-size: 3.5em;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    text-decoration: overline;
+    margin-top: 0;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  
+  .content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto;
+  }
+  
+  /*.col-wide {
+    width: 70%;
+    float: left;
+    padding: 20px;
+  }
+  
+  .col-narrow {
+    width: 30%;
+    float: left;
+  }*/
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .btn {
+    text-decoration: none;
+    background: #02010a;
+    color: #ffffff;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  /********************
+    Header and Footer
+  ********************/
+  
+  header {
+    padding-top: 50px;
+    position: relative;
+  }
+  
+  header, footer {
+    background-color: #000000c2;
+  }
+  
+  /* Header */
+  header h1, header h2 {
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+  }
+  
+  .download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  /* Navigation */
+  
+  nav {
+    text-align: center;
+    background: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: overline;
+  }
+  
+  /* Footer */
+  footer a {
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: overline;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .contact-info a {
+    padding: 10px;
+    display: inline-block;
+  }
+  /********************
+    Work Experience
+  ********************/
+  
+  .work {
+    background-color: #52504f;
+  }
+  
+  h3 ~ p {
+    margin: 0;
+  }
+  
+  .job-description p:first-of-type {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  
+  /********************
+    Education
+  ********************/
+  
+  .education {
+    background: linear-gradient(rgba(182, 162, 141, 0.8), rgba(216, 216, 216, 0.116)), url(https://preview.ibb.co/bQqDEb/vlad_busuioc_116873.jpg) no-repeat fixed;
+    background-size: cover;
+  }
+  
+  p + h3 {
+    margin-top: 30px;
+  }
+  
+  /********************
+    Education
+  ********************/
+  
+  .certification {
+    background: #747474;
+  }
+  
+  p + h3 {
+    margin-top: 30px;
+  }
+  
+  /********************
+    Media Queries
+  ********************/
+  
+  @media (min-width: 900px) {
+    .col-wide {
+      width: 70%;
+      float: left;
+      padding: 25px;
+    }
+    .col-narrow {
+      width: 30%;
+      float: left;
+    }
+  }
+  
+  @media (max-width:899px) {
+    header {
+      text-align: center;
+    }
+    .profile-img {
+      width: 100px;
+    }
+  }
+  
