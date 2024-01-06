@@ -168,8 +168,7 @@ html {
   ********************/
   
   .education {
-    /* background: linear-gradient(rgba(73, 73, 73, 0.514), rgba(216, 216, 216, 0)), url(https://preview.ibb.co/bQqDEb/vlad_busuioc_116873.jpg) no-repeat fixed; */
-
+    background: linear-gradient(rgba(73, 73, 73, 0.514), rgba(216, 216, 216, 0)), url(https://preview.ibb.co/bQqDEb/vlad_busuioc_116873.jpg) no-repeat fixed;
     background-size: cover;
   }
   
@@ -182,7 +181,7 @@ html {
   ********************/
   
   .certification {
-    /* background: linear-gradient(rgba(73, 73, 73, 0.514), rgba(216, 216, 216, 0)), url(https://preview.ibb.co/bQqDEb/vlad_busuioc_116873.jpg) no-repeat fixed; */
+    background: linear-gradient(rgba(73, 73, 73, 0.514), rgba(216, 216, 216, 0)), url(https://preview.ibb.co/bQqDEb/vlad_busuioc_116873.jpg) no-repeat fixed;
     background-size: cover;
   }
   
