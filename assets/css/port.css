@@ -73,7 +73,7 @@ html {
   
   .btn {
     text-decoration: none;
-    background: #ee868675;
+    background: #f00606d0;
     color: #ffffff;
     padding: 10px;
     display: inline-block;
@@ -151,7 +151,7 @@ html {
   ********************/
   
   .work {
-    background-color: #52504f;
+    background-color: #242323;
   }
   
   h3 ~ p {
@@ -168,9 +168,11 @@ html {
   ********************/
   
   .education {
-    background: linear-gradient(rgba(73, 73, 73, 0.514), rgba(216, 216, 216, 0)), url(https://preview.ibb.co/bQqDEb/vlad_busuioc_116873.jpg) no-repeat fixed;
+    background: linear-gradient(to bottom, rgba(73, 72, 72, 0.767), rgba(216, 216, 216, 0)), url(https://preview.ibb.co/bQqDEb/vlad_busuioc_116873.jpg) no-repeat fixed;
     background-size: cover;
-  }
+    color: rgb(255, 249, 249); /* 글자 색상을 흰색으로 설정 */
+    padding: 20px; /* 글자와 사진 사이 여백 추가 */
+}
   
   p + h3 {
     margin-top: 30px;
@@ -181,9 +183,9 @@ html {
   ********************/
   
   .certification {
-    background: linear-gradient(rgba(73, 73, 73, 0.514), rgba(216, 216, 216, 0)), url(https://preview.ibb.co/bQqDEb/vlad_busuioc_116873.jpg) no-repeat fixed;
+    background: linear-gradient(to top, rgba(73, 72, 72, 0.514), rgba(216, 216, 216, 0)), url(https://preview.ibb.co/bQqDEb/vlad_busuioc_116873.jpg) no-repeat fixed;
     background-size: cover;
-  }
+}
   
   p + h3 {
     margin-top: 30px;
