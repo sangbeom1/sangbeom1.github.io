@@ -47,6 +47,7 @@ Google Colab을 사용해서 학습과정을 진행하였다.<br>
     model = YOLO('yolov8x.pt')
 
 > 3-1 MS COCO Dataset에 정의되어 있는 클래스 개수와 종류 확인
+
     print(type(model.names), len(model.names))
 
     print(model.names)
@@ -134,13 +135,16 @@ locale.getpreferredencoding = lambda: "UTF-8"
   3) 저장
     import shutil
 
-# 복사할 폴더의 경로
+> 복사할 폴더의 경로
+    
     source_folder = "/content/runs/detect/predict3"
 
-# Google Drive에 저장할 경로
+> Google Drive에 저장할 경로
+    
     destination_folder = "/content/drive/MyDrive/KOSA3/project/prediction/predict1" # 이미존재하는 폴더일 때 여기 뒤 숫자 바꾸기
 
-# shutil을 사용하여 폴더 복사
+> shutil을 사용하여 폴더 복사
+    
     shutil.copytree(source_folder, destination_folder)
 
     print(f"{source_folder} 폴더를 {destination_folder}로 복사 완료")
