@@ -23,12 +23,14 @@ Google Colab을 사용해서 학습과정을 진행하였다.<br>
 <img width="600" alt="KakaoTalk_20240104_153645134" src="https://github.com/sangbeom1/sangbeom1.github.io/assets/145951445/ffd3b761-65b7-4725-9cc7-f85fd051e842"><br>
 
 > 1.YOLOv8와 YOLOv8 실행에 필요한 라이브러리 설치
-    !pip install ultralytics
 
+    !pip install ultralytics
+    
     import ultralytics
     ultralytics.checks()
 
 > 2.Downloading the Dataset
+    
     !pip install roboflow
 
     from roboflow import Roboflow
@@ -37,6 +39,7 @@ Google Colab을 사용해서 학습과정을 진행하였다.<br>
     dataset = project.version(1).download("yolov8")
 
 > 3.Load a Pre-trained model
+    
     from ultralytics import YOLO
 
     YOLO 모델 초기화
