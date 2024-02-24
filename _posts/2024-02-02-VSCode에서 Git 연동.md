@@ -35,7 +35,7 @@ toc: true
 > 노란 체크박스를 클릭 시 bash창을 따로 열지 않고 CMD 창에서도 작업이 가능하다. 
 
 <br>
-<img width="600" alt="KakaoTalk_20240104_153645134" src="https://github.com/sangbeom1/sangbeom1.github.io/assets/145951445/9de8d296-d872-4aae-b268-03eb7cd8c87d"><br>
+<img width="1200" alt="KakaoTalk_20240104_153645134" src="https://github.com/sangbeom1/sangbeom1.github.io/assets/145951445/9de8d296-d872-4aae-b268-03eb7cd8c87d"><br>
 
 > 깃 연동에는 방법이 많지만 먼저 Git에 연동을 해놨다면 CMD 창으로 PUSH가 가능하다. 
 
