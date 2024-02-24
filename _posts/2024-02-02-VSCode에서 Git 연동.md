@@ -38,7 +38,16 @@ toc: true
 <img width="1200" alt="KakaoTalk_20240104_153645134" src="https://github.com/sangbeom1/sangbeom1.github.io/assets/145951445/9de8d296-d872-4aae-b268-03eb7cd8c87d"><br>
 
 > 깃 연동에는 방법이 많지만 먼저 Git에 연동을 해놨다면 CMD 창으로 PUSH가 가능하다. 
+        cd blog
 
+        git add .
+
+        git commit -m "change theme"
+
+        git push --set-upstream origin main
+
+        git push
+        
         git config user.name (github 이름)
         git config user.email (github 이메일)
 
