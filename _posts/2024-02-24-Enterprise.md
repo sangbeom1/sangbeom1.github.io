@@ -10,7 +10,7 @@ sidebar:
 toc: true
 --- 
 
-# Github Organization(Enterprise)이란 여러명이 공통 그룹으로 프로젝트를 관리하는 공동 그룹 계정이라고 한다.팀 프로젝트를 진행할 떄 카테고리/그룹화 하기 좋고 google, facebook 등 다양한 회사에서 사용하고 있다.  
+> Github Organization(Enterprise)이란 여러명이 공통 그룹으로 프로젝트를 관리하는 공동 그룹 계정이라고 한다.팀 프로젝트를 진행할 떄 카테고리/그룹화 하기 좋고 google, facebook 등 다양한 회사에서 사용하고 있다.  
 
 <br>
 <img width="600" alt="KakaoTalk_20240104_153645134" src="https://github.com/sangbeom1/sangbeom1.github.io/assets/145951445/148e8335-dbd6-48da-abd5-cc098b671d6f"><br>

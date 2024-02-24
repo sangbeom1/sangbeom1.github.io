@@ -10,8 +10,8 @@ sidebar:
 toc: true
 --- 
 
-# 먼저 소스트리(Sourcetree)를 다운로드 후 설치한다.<br>
-# 이제 소스트리로 깃 저장소를 불러오는 과정을 진행해 보자.<br>
+> 먼저 소스트리(Sourcetree)를 다운로드 후 설치한다.<br>
+> 이제 소스트리로 깃 저장소를 불러오는 과정을 진행해 보자.<br>
 
 <br>
 <img width="600" alt="KakaoTalk_20240104_153645134" src="https://github.com/sangbeom1/sangbeom1.github.io/assets/145951445/714a4033-5d87-4eec-be91-87cd24c6f9c6"><br>
