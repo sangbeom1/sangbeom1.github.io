@@ -10,7 +10,7 @@ sidebar:
 toc: true
 
 # 글 공개 및 비공개 
-#published : false
+published : false
 --- 
 
 > VSCode를 Git에 연동해보자. <br>
