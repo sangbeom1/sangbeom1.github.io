@@ -8,6 +8,8 @@ author_profile: false
 sidebar:
   nav: "docs"
 toc: true
+
+published : false
 --- 
 
 > VSCode를 Git에 연동해보자. <br>
